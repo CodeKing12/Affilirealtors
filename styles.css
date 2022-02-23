@@ -9988,8 +9988,8 @@ a.text-dark:focus {
 
 @font-face {
     font-family: "Flaticon";
-    src: url("/assets/fonts/Flaticon.eot");
-    src: url("/assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Flaticon.woff") format("woff"), url("/assets/fonts/Flaticon.ttf") format("truetype"), url("/assets/fonts/Flaticon.svg#Flaticon") format("svg");
+    src: url("assets/fonts/Flaticon.eot");
+    src: url("assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Flaticon.woff") format("woff"), url("assets/fonts/Flaticon.ttf") format("truetype"), url("assets/fonts/Flaticon.svg#Flaticon") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -9997,7 +9997,7 @@ a.text-dark:focus {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: "Flaticon";
-        src: url("/assets/fonts/Flaticon.svg#Flaticon") format("svg");
+        src: url("assets/fonts/Flaticon.svg#Flaticon") format("svg");
     }
 }
 
@@ -10047,8 +10047,8 @@ a.text-dark:focus {
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url("/assets/fonts/fontawesome-webfont.eot?v=4.7.0");
-    src: url("/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("/assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    src: url("assets/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -14535,7 +14535,7 @@ section {
 }
 
 .pricing .price-container.hover-overlay:hover {
-    background: url("/assets/images/gym/price.jpg");
+    background: url("assets/images/gym/price.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15305,7 +15305,7 @@ download section end
 }
 
 .subscribe.app1 {
-    background: url("/assets/images/app_landing1/subscribe/subscribe.png");
+    background: url("assets/images/app_landing1/subscribe/subscribe.png");
 }
 
 .subscribe.app1 .button-primary {
@@ -15801,7 +15801,7 @@ header.saas1 nav .main-menu li>a>span {
 }
 
 .header .bg.app1-header {
-    background-image: url("/assets/images/app_landing1/header-1-bg.png");
+    background-image: url("assets/images/app_landing1/header-1-bg.png");
     overflow: hidden;
 }
 
@@ -15823,11 +15823,11 @@ header.saas1 nav .main-menu li>a>span {
 }
 
 .header .bg.app2-header .transparent-img {
-    background-image: url("/assets/images/app_landing2/h2-bg.png");
+    background-image: url("assets/images/app_landing2/h2-bg.png");
 }
 
 .header .bg.header3 {
-    background-image: url("/assets/images/event/event_slider.jpg");
+    background-image: url("assets/images/event/event_slider.jpg");
     background-attachment: fixed;
     background-position: 0 0;
     background-repeat: repeat;
@@ -15855,11 +15855,11 @@ header.saas1 nav .main-menu li>a>span {
 }
 
 .header .bg.header4 {
-    background-image: url("/assets/images/hedaer-images/h3-bg.jpg");
+    background-image: url("assets/images/hedaer-images/h3-bg.jpg");
 }
 
 .header .bg.gym-header {
-    background-image: url("/assets/images/gym/header.jpg");
+    background-image: url("assets/images/gym/header.jpg");
     background-position: top;
 }
 
@@ -15878,29 +15878,29 @@ header.saas1 nav .main-menu li>a>span {
 }
 
 .header .bg.music-bg {
-    background-image: url("/assets/images/music/slider.jpg");
+    background-image: url("assets/images/music/slider.jpg");
     background-attachment: fixed;
 }
 
 .header .bg.resume {
-    background-image: url("/assets/images/resume/h7-bg-text.png");
+    background-image: url("assets/images/resume/h7-bg-text.png");
     background-size: contain;
 }
 
 .header .bg.saas1-header {
-    background-image: url("/assets/images/saas1/slider-banner.jpg");
+    background-image: url("assets/images/saas1/slider-banner.jpg");
 }
 
 .header .bg.saas2-bg {
-    background-image: url("/assets/images/saas2/slider.png");
+    background-image: url("assets/images/saas2/slider.png");
 }
 
 .header .bg.yogas {
-    background-image: url("/assets/images/yoga-img/Layer-8.png");
+    background-image: url("assets/images/yoga-img/Layer-8.png");
 }
 
 .header .bg.agency {
-    background-image: url("/assets/images/agency/slider/slider.png");
+    background-image: url("assets/images/agency/slider/slider.png");
     background-position: right;
 }
 
@@ -15957,7 +15957,7 @@ header.saas1 nav .main-menu li>a>span {
     bottom: 0;
     width: 100%;
     animation: move-img 10s linear infinite;
-    background-image: url("/assets/images/app_landing2/wave.png");
+    background-image: url("assets/images/app_landing2/wave.png");
     height: 40px;
     background-size: contain;
 }
@@ -15968,7 +15968,7 @@ header.saas1 nav .main-menu li>a>span {
     position: absolute;
     bottom: 0;
     animation: move-img-reverse 10s linear infinite;
-    background-image: url("/assets/images/app_landing2/wave.png");
+    background-image: url("assets/images/app_landing2/wave.png");
     height: 40px;
     background-size: contain;
     opacity: 0.4;
@@ -15980,7 +15980,7 @@ header.saas1 nav .main-menu li>a>span {
     width: 100%;
     bottom: 0;
     animation: move-img 20s linear infinite;
-    background-image: url("/assets/images/app_landing2/wave.png");
+    background-image: url("assets/images/app_landing2/wave.png");
     height: 45px;
     background-size: contain;
     opacity: 0.4;
@@ -15999,7 +15999,7 @@ header.saas1 nav .main-menu li>a>span {
     width: 326px;
     -webkit-animation: move-img 10s linear infinite;
     animation: move-img 10s linear infinite;
-    background-image: url("/assets/images/app_landing2/wave-orange.png");
+    background-image: url("assets/images/app_landing2/wave-orange.png");
     height: 34px;
     background-size: contain;
     left: 50%;
@@ -16015,7 +16015,7 @@ header.saas1 nav .main-menu li>a>span {
     width: 326px;
     -webkit-animation: move-img-reverse 10s linear infinite;
     animation: move-img-reverse 10s linear infinite;
-    background-image: url("/assets/images/app_landing2/wave-orange.png");
+    background-image: url("assets/images/app_landing2/wave-orange.png");
     height: 34px;
     opacity: 0.4;
     background-size: contain;
@@ -16029,7 +16029,7 @@ header.saas1 nav .main-menu li>a>span {
     width: 326px;
     -webkit-animation: move-img 40s linear infinite;
     animation: move-img 40s linear infinite;
-    background-image: url("/assets/images/app_landing2/wave-orange.png");
+    background-image: url("assets/images/app_landing2/wave-orange.png");
     height: 34px;
     background-size: contain;
 }
@@ -16617,12 +16617,12 @@ footer i.fa {
 }
 
 footer.footer2.bg {
-    background: url("/assets/images/app_landing2/l-2-footer.png") no-repeat top;
+    background: url("assets/images/app_landing2/l-2-footer.png") no-repeat top;
     background-size: cover;
 }
 
 footer.footer2.saas2 {
-    background: url("/assets/images/saas2/footer.png") no-repeat top;
+    background: url("assets/images/saas2/footer.png") no-repeat top;
     background-size: cover;
 }
 
@@ -16665,7 +16665,7 @@ footer.dark {
 }
 
 footer.dark.app2 {
-    background: url("/assets/images/app_landing2/l-2-footer-dark.png") no-repeat top !important;
+    background: url("assets/images/app_landing2/l-2-footer-dark.png") no-repeat top !important;
 }
 
 footer.dark h1,
@@ -16729,7 +16729,7 @@ footer.bg-light-inner {
 *************************/
 
 .videos .video {
-    background-image: url("/assets/images/app_landing1/video-pic.jpg");
+    background-image: url("assets/images/app_landing1/video-pic.jpg");
     z-index: 1;
     padding: 125px 0;
     border-radius: 10px;
@@ -16778,7 +16778,7 @@ footer.bg-light-inner {
 }
 
 .videos .bg {
-    background: url("/assets/images/video/bg-videol-2.png");
+    background: url("assets/images/video/bg-videol-2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16829,7 +16829,7 @@ footer.bg-light-inner {
 }
 
 .videos.saas1 .video {
-    background-image: url("/assets/images/saas1/video-pic.jpg");
+    background-image: url("assets/images/saas1/video-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17405,13 +17405,13 @@ booking section end
 }
 
 .music.bg-album {
-    background: url("/assets/images/music/album.jpg");
+    background: url("assets/images/music/album.jpg");
     background-attachment: fixed;
     background-position: center top;
 }
 
 .music.bg-artist {
-    background: url("/assets/images/music/artist/bg.jpg");
+    background: url("assets/images/music/artist/bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17423,7 +17423,7 @@ booking section end
 }
 
 .music.bg-gallery {
-    background: url("/assets/images/music/gallery/bg.jpg");
+    background: url("assets/images/music/gallery/bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17432,14 +17432,14 @@ booking section end
 }
 
 .music.bg-video {
-    background: url("/assets/images/music/video-bg.jpg");
+    background: url("assets/images/music/video-bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .music.bg-footer {
-    background: url("/assets/images/music/footer-bg.jpg");
+    background: url("assets/images/music/footer-bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17450,7 +17450,7 @@ booking section end
 }
 
 .music.sponsor {
-    background: url("/assets/images/music/sponser/bg.jpg");
+    background: url("assets/images/music/sponser/bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17933,7 +17933,7 @@ booking section end
 }
 
 .music .sponsor.bg-music {
-    background: url("/assets/images/music/sponser/bg.jpg");
+    background: url("assets/images/music/sponser/bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18271,20 +18271,20 @@ resume-theme css end
 }
 
 .wedding.bg.slider-bg {
-    background-image: url("/assets/images/wedding-img/slider/slider-bg.jpg");
+    background-image: url("assets/images/wedding-img/slider/slider-bg.jpg");
     background-attachment: fixed;
 }
 
 .wedding.bg.wedding-bg {
-    background-image: url("/assets/images/wedding-img/bg2.jpg");
+    background-image: url("assets/images/wedding-img/bg2.jpg");
 }
 
 .wedding.bg.jenny-bg {
-    background-image: url("/assets/images/wedding-img/backgrounds/jenny-bg.png");
+    background-image: url("assets/images/wedding-img/backgrounds/jenny-bg.png");
 }
 
 .wedding.bg.countdown-bg {
-    background-image: url("/assets/images/wedding-img/backgrounds/countdown-bg.png");
+    background-image: url("assets/images/wedding-img/backgrounds/countdown-bg.png");
 }
 
 .wedding.bg.countdown-bg .counter-container .gradient-text {
@@ -18293,15 +18293,15 @@ resume-theme css end
 }
 
 .wedding.bg.when-where-bg {
-    background-image: url("/assets/images/wedding-img/backgrounds/when-where.png");
+    background-image: url("assets/images/wedding-img/backgrounds/when-where.png");
 }
 
 .wedding.bg.wishes-bg {
-    background-image: url("/assets/images/wedding-img/backgrounds/wishes.png");
+    background-image: url("assets/images/wedding-img/backgrounds/wishes.png");
 }
 
 .wedding.bg.attend-bg {
-    background-image: url("/assets/images/wedding-img/backgrounds/attend.png");
+    background-image: url("assets/images/wedding-img/backgrounds/attend.png");
 }
 
 .wedding .slick-slider .slick-dots {
@@ -18586,7 +18586,7 @@ wedding-theme css end
 }
 
 .yoga.img-1 {
-    background: url("/assets/images/yoga-img/schedule-bg.jpg");
+    background: url("assets/images/yoga-img/schedule-bg.jpg");
 }
 
 .yoga.img-1.bg {
@@ -19013,7 +19013,7 @@ yoga-theme css end
 }
 
 .agency.service-bg {
-    background: url("/assets/images/agency/service/services-backgrondpng.png");
+    background: url("assets/images/agency/service/services-backgrondpng.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19022,7 +19022,7 @@ yoga-theme css end
 }
 
 .agency.video-bg {
-    background: url("/assets/images/agency/videos/video-background.png");
+    background: url("assets/images/agency/videos/video-background.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19030,7 +19030,7 @@ yoga-theme css end
 }
 
 .agency.counter-bg {
-    background: url("/assets/images/agency/counter/counter-background.png");
+    background: url("assets/images/agency/counter/counter-background.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19038,7 +19038,7 @@ yoga-theme css end
 }
 
 .agency.price-bg {
-    background: url("/assets/images/agency/price/bg.png");
+    background: url("assets/images/agency/price/bg.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19046,7 +19046,7 @@ yoga-theme css end
 }
 
 .agency.expert-bg {
-    background: url("/assets/images/agency/team/expert-background.png");
+    background: url("assets/images/agency/team/expert-background.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19054,7 +19054,7 @@ yoga-theme css end
 }
 
 .agency.blog-bg {
-    background: url("/assets/images/agency/blog/background.png");
+    background: url("assets/images/agency/blog/background.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19066,7 +19066,7 @@ yoga-theme css end
 }
 
 .agency.testimonial-bg {
-    background: url("/assets/images/agency/testimonial/bg.png");
+    background: url("assets/images/agency/testimonial/bg.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19087,7 +19087,7 @@ yoga-theme css end
 }
 
 .agency.testimonial-bg .testimonial-slider .slick-prev {
-    background: url("/assets/images/agency/testimonial/left.png");
+    background: url("assets/images/agency/testimonial/left.png");
     background-repeat: no-repeat;
     left: unset;
     right: 70px;
@@ -19098,7 +19098,7 @@ yoga-theme css end
 }
 
 .agency.testimonial-bg .testimonial-slider .slick-next {
-    background: url("/assets/images/agency/testimonial/right.png");
+    background: url("assets/images/agency/testimonial/right.png");
     background-repeat: no-repeat;
     right: 30px;
 }
@@ -20087,7 +20087,7 @@ schedule css end
 }
 
 .testimonial.gym {
-    background: url("/assets/images/gym/testimonial/testimonial-bg.jpg");
+    background: url("assets/images/gym/testimonial/testimonial-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20521,7 +20521,7 @@ tap to top css end
 }
 
 .saas1.build-bg {
-    background-image: url("/assets/images/saas1/banner-2.jpg");
+    background-image: url("assets/images/saas1/banner-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -20691,7 +20691,7 @@ tap to top css end
 }
 
 .saas1.howitwork {
-    background-image: url("/assets/images/saas1/work-bg.png");
+    background-image: url("assets/images/saas1/work-bg.png");
     background-size: cover;
 }
 
@@ -20779,7 +20779,7 @@ tap to top css end
 
 .saas1.pricing {
     background-color: var(--secondary);
-    background-image: url("/assets/images/saas1/banner-2.jpg");
+    background-image: url("assets/images/saas1/banner-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20970,7 +20970,7 @@ tap to top css end
 }
 
 .saas1 .testimonial-bg {
-    background-image: url("/assets/images/saas1/work-bg.png");
+    background-image: url("assets/images/saas1/work-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21097,7 +21097,7 @@ tap to top css end
 }
 
 .saas1.testimonial .video-box {
-    background-image: url("/assets/images/saas1/video-pic.jpg");
+    background-image: url("assets/images/saas1/video-pic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -21118,7 +21118,7 @@ tap to top css end
 
 .saas1.subscribe {
     background-color: var(--secondary);
-    background-image: url("/assets/images/saas1/banner-2.jpg");
+    background-image: url("assets/images/saas1/banner-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21295,7 +21295,7 @@ tap to top css end
 
 .saas1.blog {
     background-color: var(--secondary);
-    background-image: url("/assets/images/saas1/banner-2.jpg");
+    background-image: url("assets/images/saas1/banner-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21534,7 +21534,7 @@ saas1 css end
 .saas2.feature {
     position: relative;
     overflow: hidden;
-    background-image: url("/assets/images/saas2/background.png");
+    background-image: url("assets/images/saas2/background.png");
     background-size: contain;
     background-position: right;
 }
@@ -21577,7 +21577,7 @@ saas1 css end
 }
 
 .saas2.quick-sol {
-    background: url("/assets/images/saas2/background/quick-sol.png");
+    background: url("assets/images/saas2/background/quick-sol.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21639,7 +21639,7 @@ saas1 css end
 }
 
 .saas2.laptop-slider {
-    background: url("/assets/images/saas2/background/screenshot-bg.png");
+    background: url("assets/images/saas2/background/screenshot-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21757,7 +21757,7 @@ saas1 css end
 }
 
 .saas2.testimonial {
-    background: url("/assets/images/saas2/background/bg-testimonial.png");
+    background: url("assets/images/saas2/background/bg-testimonial.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22158,15 +22158,15 @@ event css start
 }
 
 .event.bg-img {
-    background-image: url("/assets/images/event/bg1.jpg");
+    background-image: url("assets/images/event/bg1.jpg");
 }
 
 .event.bg-img2 {
-    background-image: url("/assets/images/event/h3-bg.jpg");
+    background-image: url("assets/images/event/h3-bg.jpg");
 }
 
 .event.bg-img3 {
-    background-image: url("/assets/images/event/counter-bg.jpg");
+    background-image: url("assets/images/event/counter-bg.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -22537,7 +22537,7 @@ gym css start
 }
 
 .gym.bg-schedule {
-    background-image: url("/assets/images/gym/bg.png");
+    background-image: url("assets/images/gym/bg.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 1150px;
@@ -22545,7 +22545,7 @@ gym css start
 }
 
 .gym.bg-cal-bmi {
-    background-image: url("/assets/images/gym/calculat-bg.jpg");
+    background-image: url("assets/images/gym/calculat-bg.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -22553,7 +22553,7 @@ gym css start
 }
 
 .gym.bg-img3 {
-    background-image: url("/assets/images/gym/counter/bg.jpg");
+    background-image: url("assets/images/gym/counter/bg.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -23080,7 +23080,7 @@ breadcrumb-section css start
 .breadcrumb-section:not(.breadcrumb-left),
 .breadcrumb-section:not(.breadcrumb-right),
 .breadcrumb-section:not(.breadcrumb-slider) {
-    background: url("/assets/images/inner-page/breadcrumb.jpg");
+    background: url("assets/images/inner-page/breadcrumb.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
@@ -23088,7 +23088,7 @@ breadcrumb-section css start
 
 .breadcrumb-section.breadcrumb-left,
 .breadcrumb-section.breadcrumb-right {
-    background: url("/assets/images/inner-page/breadcrumb-plain.jpg");
+    background: url("assets/images/inner-page/breadcrumb-plain.jpg");
 }
 
 .breadcrumb-section li {
@@ -23104,7 +23104,7 @@ breadcrumb-section css start
 }
 
 .breadcrumb-section.bg1 {
-    background: url("/assets/images/inner-page/breadcrumb-bg.jpg");
+    background: url("assets/images/inner-page/breadcrumb-bg.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
@@ -23258,7 +23258,7 @@ breadcrumb-section css start
 }
 
 .breadcrumb-section.breadcrumb-slider .img-slider .bg1 {
-    background: url("/assets/images/inner-page/breadcrumb-bg.jpg");
+    background: url("assets/images/inner-page/breadcrumb-bg.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -23268,7 +23268,7 @@ breadcrumb-section css start
 }
 
 .breadcrumb-section.breadcrumb-slider .img-slider .bg2 {
-    background: url("/assets/images/inner-page/blogs/1.jpg");
+    background: url("assets/images/inner-page/blogs/1.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -23278,7 +23278,7 @@ breadcrumb-section css start
 }
 
 .breadcrumb-section.breadcrumb-slider .img-slider .bg3 {
-    background: url("/assets/images/inner-page/breadcrumb-bg.jpg");
+    background: url("assets/images/inner-page/breadcrumb-bg.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -23288,7 +23288,7 @@ breadcrumb-section css start
 }
 
 .breadcrumb-section.breadcrumb-slider .img-slider .bg4 {
-    background: url("/assets/images/inner-page/blogs/1.jpg");
+    background: url("assets/images/inner-page/blogs/1.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -23453,7 +23453,7 @@ blog-section css start
 }
 
 .blog-sec.videos .video {
-    background: url("/assets/images/agency/blog/21.jpg");
+    background: url("assets/images/agency/blog/21.jpg");
     background-blend-mode: overlay;
     background-color: #00000094;
     background-size: cover;
@@ -23462,7 +23462,7 @@ blog-section css start
 }
 
 .blog-sec.detail2 .bg-blog-detail {
-    background: url("/assets/images/inner-page/blogs/1.jpg");
+    background: url("assets/images/inner-page/blogs/1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23834,7 +23834,7 @@ error css start
 }
 
 .section-404 .stars {
-    background: url("/assets/images/404/overlay_stars.svg");
+    background: url("assets/images/404/overlay_stars.svg");
     background-repeat: repeat;
     background-size: contain;
     background-position: left top;
@@ -23893,7 +23893,7 @@ error css start
 }
 
 .coming-soon.coming-soon-2 {
-    background: url("/assets/images/inner-page/maintain-soon/friend.jpg");
+    background: url("assets/images/inner-page/maintain-soon/friend.jpg");
     background-position: center;
     background-size: cover;
     min-height: 100%;
@@ -23902,7 +23902,7 @@ error css start
 }
 
 .coming-soon .bg-coming-soon {
-    background: url("/assets/images/inner-page/maintain-soon/bg-come-soon.jpg");
+    background: url("assets/images/inner-page/maintain-soon/bg-come-soon.jpg");
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -24078,7 +24078,7 @@ error css end
 }
 
 .portfolio-section.videos .video {
-    background: url("/assets/images/agency/blog/21.jpg");
+    background: url("assets/images/agency/blog/21.jpg");
     background-blend-mode: overlay;
     background-color: #00000094;
     background-position: center;
@@ -25304,7 +25304,7 @@ error css end
     -ms-appearance: none;
     -o-appearance: none;
     -moz-appearance: none;
-    background: url("/assets/images/inner-page/dropdown.png") no-repeat 95%;
+    background: url("assets/images/inner-page/dropdown.png") no-repeat 95%;
 }
 
 .checkout-page .checkout-form input[type="text"],
@@ -26233,7 +26233,7 @@ error css end
     -webkit-appearance: none;
     -moz-appearance: none;
     cursor: pointer;
-    background: url("/assets/images/inner-page/dropdown.png") no-repeat 95%;
+    background: url("assets/images/inner-page/dropdown.png") no-repeat 95%;
 }
 
 .collection-product-wrapper .product-top-filter .product-filter-content .product-page-per-view select:focus,
@@ -26289,7 +26289,7 @@ error css end
     position: relative;
     cursor: pointer;
     width: 22%;
-    background: url("/assets/images/inner-page/dropdown.png") no-repeat 95%;
+    background: url("assets/images/inner-page/dropdown.png") no-repeat 95%;
 }
 
 .collection-product-wrapper .product-top-filter .popup-filter .sidebar-popup a {
@@ -28390,23 +28390,23 @@ error css end
 }
 
 .parallex-section .img-1 {
-    background: url("/assets/images/portfolio/portfolio-new/1.jpg");
+    background: url("assets/images/portfolio/portfolio-new/1.jpg");
 }
 
 .parallex-section .img-2 {
-    background: url("/assets/images/portfolio/portfolio-new/4.jpg");
+    background: url("assets/images/portfolio/portfolio-new/4.jpg");
 }
 
 .parallex-section .img-3 {
-    background: url("/assets/images/portfolio/portfolio-new/2.jpg");
+    background: url("assets/images/portfolio/portfolio-new/2.jpg");
 }
 
 .parallex-section .img-4 {
-    background: url("/assets/images/portfolio/portfolio-new/5.jpg");
+    background: url("assets/images/portfolio/portfolio-new/5.jpg");
 }
 
 .parallex-section .img-5 {
-    background: url("/assets/images/portfolio/portfolio-new/3.jpg");
+    background: url("assets/images/portfolio/portfolio-new/3.jpg");
 }
 
 .parallex-section .parallex-container {
@@ -28468,27 +28468,27 @@ error css end
 
 .multiple-carousel .img1,
 .center-slide .img1 {
-    background: url("/assets/images/portfolio/multiple-carousel/5.jpg");
+    background: url("assets/images/portfolio/multiple-carousel/5.jpg");
 }
 
 .multiple-carousel .img2,
 .center-slide .img2 {
-    background: url("/assets/images/portfolio/multiple-carousel/4.jpg");
+    background: url("assets/images/portfolio/multiple-carousel/4.jpg");
 }
 
 .multiple-carousel .img3,
 .center-slide .img3 {
-    background: url("/assets/images/portfolio/multiple-carousel/3.jpg");
+    background: url("assets/images/portfolio/multiple-carousel/3.jpg");
 }
 
 .multiple-carousel .img4,
 .center-slide .img4 {
-    background: url("/assets/images/portfolio/multiple-carousel/2.jpg");
+    background: url("assets/images/portfolio/multiple-carousel/2.jpg");
 }
 
 .multiple-carousel .img5,
 .center-slide .img5 {
-    background: url("/assets/images/portfolio/multiple-carousel/1.jpg");
+    background: url("assets/images/portfolio/multiple-carousel/1.jpg");
 }
 
 .multiple-carousel .slick-slide,
@@ -28595,7 +28595,7 @@ error css end
 }
 
 .maintenance-sec {
-    background: url("/assets/images/inner-page/maintain-soon/bg-maintenance.jpg");
+    background: url("assets/images/inner-page/maintain-soon/bg-maintenance.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28708,7 +28708,7 @@ error css end
 
 .snow--near {
     animation-duration: 10s;
-    background-image: url("/assets/images/snow1.png");
+    background-image: url("assets/images/snow1.png");
     background-size: contain;
 }
 
@@ -28718,7 +28718,7 @@ error css end
 
 .snow--mid {
     animation-duration: 20s;
-    background-image: url("/assets/images/snow2.png");
+    background-image: url("assets/images/snow2.png");
     background-size: contain;
 }
 
@@ -28728,7 +28728,7 @@ error css end
 
 .snow--far {
     animation-duration: 30s;
-    background-image: url("/assets/images/snow3.png");
+    background-image: url("assets/images/snow3.png");
     background-size: contain;
 }
 
@@ -28748,7 +28748,7 @@ error css end
 }
 
 .creative-content {
-    background: url("/assets/images/creative/1.png");
+    background: url("assets/images/creative/1.png");
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -28808,7 +28808,7 @@ error css end
 }
 
 .portfolio-metro.bg {
-    background: url("/assets/images/portfolio/portfolio-new/font.png");
+    background: url("assets/images/portfolio/portfolio-new/font.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30629,7 +30629,7 @@ footer.saas1 h5 {
 }
 
 .modal-ecommerce {
-    background-image: url("/assets/images/inner-page/collection/1.jpg");
+    background-image: url("assets/images/inner-page/collection/1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -41763,8 +41763,8 @@ nav {
 
 @font-face {
     font-family: "Flaticon";
-    src: url("/assets/fonts/Flaticon.eot");
-    src: url("/assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Flaticon.woff") format("woff"), url("/assets/fonts/Flaticon.ttf") format("truetype"), url("/assets/fonts/Flaticon.svg#Flaticon") format("svg");
+    src: url("assets/fonts/Flaticon.eot");
+    src: url("assets/fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Flaticon.woff") format("woff"), url("assets/fonts/Flaticon.ttf") format("truetype"), url("assets/fonts/Flaticon.svg#Flaticon") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -41772,7 +41772,7 @@ nav {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     @font-face {
         font-family: "Flaticon";
-        src: url("/assets/fonts/Flaticon.svg#Flaticon") format("svg");
+        src: url("assets/fonts/Flaticon.svg#Flaticon") format("svg");
     }
 }
 
@@ -41816,8 +41816,8 @@ nav {
 
 @font-face {
     font-family: 'themify';
-    src: url("/assets/fonts/themify.eot?-fvbane");
-    src: url("/assets/fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("/assets/fonts/themify.woff?-fvbane") format("woff"), url("/assets/fonts//themify.ttf?-fvbane") format("truetype"), url("/assets/fonts/themify.svg?-fvbane#themify") format("svg");
+    src: url("assets/fonts/themify.eot?-fvbane");
+    src: url("assets/fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("assets/fonts/themify.woff?-fvbane") format("woff"), url("assets/fonts//themify.ttf?-fvbane") format("truetype"), url("assets/fonts/themify.svg?-fvbane#themify") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -44315,7 +44315,7 @@ html {
 }
 
 .landing-page .home-section {
-    background: url("/assets/images/landing/home/1.png");
+    background: url("assets/images/landing/home/1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44547,7 +44547,7 @@ html {
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images {
     width: 100%;
     height: 500px;
-    background-image: url("/assets/images/landing/navbar.jpg");
+    background-image: url("assets/images/landing/navbar.jpg");
     display: inline-block;
     position: relative;
     background-repeat: no-repeat;
@@ -44558,55 +44558,55 @@ html {
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-1 {
-    background: url("/assets/images/landing/demo/1.png");
+    background: url("assets/images/landing/demo/1.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-2 {
-    background: url("/assets/images/landing/demo/2.png");
+    background: url("assets/images/landing/demo/2.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-3 {
-    background: url("/assets/images/landing/demo/3.png");
+    background: url("assets/images/landing/demo/3.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-4 {
-    background: url("/assets/images/landing/demo/4.png");
+    background: url("assets/images/landing/demo/4.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-5 {
-    background: url("/assets/images/landing/demo/5.png");
+    background: url("assets/images/landing/demo/5.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-6 {
-    background: url("/assets/images/landing/demo/6.png");
+    background: url("assets/images/landing/demo/6.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-7 {
-    background: url("/assets/images/landing/demo/7.png");
+    background: url("assets/images/landing/demo/7.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-8 {
-    background: url("/assets/images/landing/demo/8.png");
+    background: url("assets/images/landing/demo/8.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-9 {
-    background: url("/assets/images/landing/demo/9.png");
+    background: url("assets/images/landing/demo/9.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-10 {
-    background: url("/assets/images/landing/demo/10.png");
+    background: url("assets/images/landing/demo/10.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-11 {
-    background: url("/assets/images/landing/demo/11.png");
+    background: url("assets/images/landing/demo/11.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-12 {
-    background: url("/assets/images/landing/demo/12.png");
+    background: url("assets/images/landing/demo/12.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .image-13 {
-    background: url("/assets/images/landing/demo/13.png");
+    background: url("assets/images/landing/demo/13.png");
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts .layout-images .layout-container {
@@ -44655,7 +44655,7 @@ html {
 }
 
 .landing-page .app-preview-section .demo-effects .demo-layouts.app-preview .preview-header:before {
-    content: url("/assets/images/landing/hover.png");
+    content: url("assets/images/landing/hover.png");
     position: absolute;
     left: -80px;
     opacity: 0;
