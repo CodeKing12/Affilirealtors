@@ -13093,7 +13093,7 @@ a.text-dark:focus {
 }
 
 :root {
-    --primary: #357fef;
+    --primary: #0001FA;
     --secondary: #4e4e4e;
     --light: #13B8EA;
     --dark: #4E56F3;
@@ -28278,24 +28278,24 @@ error css end
 }
 
 .btn-section .btn-default.primary-btn.info {
-    background: #357fef;
+    background: #0001FA;
 }
 
 .btn-section .btn-default.primary-btn.info:hover {
     background: transparent;
-    color: #357fef !important;
-    border-color: #357fef;
+    color: #0001FA !important;
+    border-color: #0001FA;
 }
 
 .btn-section .btn-default.primary-btn.info.btn-white {
-    color: #357fef !important;
-    border-color: #357fef !important;
+    color: #0001FA !important;
+    border-color: #0001FA !important;
     background: #fff;
 }
 
 .btn-section .btn-default.primary-btn.info.btn-white:hover {
     color: #fff !important;
-    background: #357fef;
+    background: #0001FA;
 }
 
 .btn-section .btn-default.primary-btn.warning {
@@ -46738,7 +46738,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 [data-aos^=fade][data-aos^=fade] {
-    opacity: 0;
+    /* opacity: 0; */
     transition-property: opacity, transform
 }
 
