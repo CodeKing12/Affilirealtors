@@ -46889,3 +46889,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 [data-aos=flip-down].aos-animate {
     transform: perspective(2500px) rotateX(0)
 }
+
+.main-logo {
+    width: 110px;
+}
