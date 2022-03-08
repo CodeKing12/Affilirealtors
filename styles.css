@@ -47037,3 +47037,17 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 .remove-loader {
     animation: fadeOff 1s ease-out; 
 }
+
+@media only screen and (max-width: 575px) {
+    header nav>a .img-fluid {
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header nav>a .img-fluid {
+        width: 90px;
+        height: auto;
+    }
+}
