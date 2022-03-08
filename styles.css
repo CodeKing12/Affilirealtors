@@ -71,6 +71,7 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    transition: 3s ease all;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -46924,7 +46925,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 
 .bg-overlay:after {
     content: " ";
-    background-color: rgba(0, 0, 0, 0.66);
+    background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
     top: 0;
     width: 100%;
@@ -47009,4 +47010,30 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     .header .center-text {
         margin-top: 90px;
     }
+}
+
+@keyframes fadeOff {
+    0% {
+        opacity: 0.9
+    }
+
+    30% {
+        opacity: 0.7
+    }
+
+    60% {
+        opacity: 0.5
+    }
+
+    90% {
+        opacity: 0.2
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.remove-loader {
+    animation: fadeOff 1s ease-out; 
 }

@@ -35,10 +35,10 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body class="try">
+<body onload="removeLoader()" class="try">
     <div id="__nextx">
         <div>
-            <!-- <div class="loader-wrapper">
+            <div id="loader" class="loader-wrapper">
                 <div class="loader">
                     <div></div>
                     <div></div>
@@ -50,7 +50,7 @@
                     <div></div>
                     <div></div>
                 </div>
-            </div> -->
+            </div>
             <div class="theme-color">
                 <header class="agency loding-header nav-abs custom-scroll  ">
                     <div class="container">
@@ -768,12 +768,12 @@
                     </div>
                 </div>
             </div>
-            <div class="theme-pannel-main">
+            <!-- <div class="theme-pannel-main">
                 <ul>
                     <li id="rtl_btn"><a class="btn setting_btn"><span class="rtl-txt">RTL</span></a></li>
                     <li class="sidebar-btn dark-light-btn"><a class="dark-light"><span class="theme-layout-version">Dark</span></a></li>
                 </ul>
-            </div>
+            </div> -->
             <div class="tap-top" style="display:none">
                 <div><i class="fa fa-angle-double-up"></i></div>
             </div>
@@ -787,6 +787,17 @@
     <script src="commons.js"></script>
     <script src="styles.js"></script>
     <script src="main.js"></script>
+    <script>
+        function removeLoader(){
+            loader = document.getElementById("loader")
+            loader.classList.add("remove-loader")
+            let now = Date.now(),
+                end = now + 1000;
+            while (now < end) { now = Date.now(); }
+            // loader.style.opacity =  0
+            loader.style.display =  "none"
+        }
+    </script>
 </body>
 
 </html>
