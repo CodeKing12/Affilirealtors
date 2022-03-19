@@ -23083,7 +23083,7 @@ breadcrumb-section css start
 .breadcrumb-section:not(.breadcrumb-left),
 .breadcrumb-section:not(.breadcrumb-right),
 .breadcrumb-section:not(.breadcrumb-slider) {
-    background: url("assets/images/inner-page/breadcrumb.jpg");
+    background: url("assets/images/how-works/breadcrumb.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
